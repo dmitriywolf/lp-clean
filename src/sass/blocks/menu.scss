@@ -1,0 +1,39 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  margin: 0 auto;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+
+  li {
+    padding: 0 12px;
+  }
+}
+
+.menu__link {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #404040;
+  transition: opacity linear 0.3s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+@media (max-width: 1270px) {
+  .menu {
+    display: none;
+    //flex-direction: column;
+    //justify-content:  center;
+    //margin: 0 auto;
+  }
+
+
+
+
+}

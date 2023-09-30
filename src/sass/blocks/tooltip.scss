@@ -1,0 +1,230 @@
+.tooltip {
+  position: absolute;
+  display: block;
+
+  &__icon-wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(90, 48, 240, 0.2);
+    border-radius: 50%;
+    transition: all linear 0.3s;
+    transform: translate(-50%, -50%);
+
+    .tooltip__icon {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      background-color: $theme-color;
+      border-radius: 50%;
+
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        background-color: #ffffff;
+      }
+
+      &::before {
+        top: 14px;
+        left: 9px;
+        width: 12px;
+        height: 2px;
+      }
+
+      &::after {
+        top: 9px;
+        left: 14px;
+        width: 2px;
+        height: 12px;
+      }
+    }
+
+    &:hover {
+      background-color: transparent;
+
+      & .tooltip__icon {
+        transform: rotate(45deg);
+      }
+
+      & ~ .tooltip__text {
+        opacity: 1;
+      }
+    }
+
+
+  }
+
+  &__text {
+    position: relative;
+    display: block;
+    padding: 8px 10px;
+    font-size: 13px;
+    color: #636C81;
+    background-color: #ffffff;
+    border-radius: 2px;
+    opacity: 0;
+    transition: all linear 0.3s;
+    transform: translate(-50%, -320%);
+
+    &::after {
+      content: "";
+      position: absolute;
+      right: calc(50% - 4px);
+      bottom: -8px;
+      display: block;
+      width: 8px;
+      height: 8px;
+      border-width: 4px;
+      border-style: solid;
+      border-color: #ffffff;
+      border-left-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+
+    }
+  }
+
+}
+
+.tooltip--kitchen {
+  .tooltip {
+    &--first {
+      top: 33%;
+      left: 32%;
+    }
+
+    &--second {
+      top: 57%;
+      left: 26%;
+    }
+
+    &--third {
+      top: 90%;
+      left: 29%;
+    }
+
+    &--fourth {
+      top: 60%;
+      left: 46%;
+    }
+
+    &--fifth {
+      top: 74%;
+      left: 57%;
+    }
+
+    &--sixth {
+      top: 48%;
+      left: 60%;
+    }
+
+    &--seventh {
+      top: 63%;
+      left: 80%;
+    }
+  }
+
+}
+
+.tooltip--bathroom {
+  .tooltip {
+    &--first {
+      top: 32%;
+      left: 24%;
+    }
+
+    &--second {
+      top: 90%;
+      left: 30%;
+    }
+
+    &--third {
+      top: 89%;
+      left: 53%;
+    }
+
+    &--fourth {
+      top: 48%;
+      left: 60%;
+    }
+
+    &--fifth {
+      top: 80%;
+      left: 78%;
+    }
+  }
+
+
+}
+
+
+@media (max-width: 1270px) {
+  .tooltip {
+    &__icon-wrap {
+      width: 40px;
+      height: 40px;
+    }
+
+    &__text {
+      padding: 6px 6px;
+      font-size: 12px;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .tooltip {
+
+    &__icon-wrap {
+      width: 30px;
+      height: 30px;
+
+      .tooltip__icon {
+        width: 20px;
+        height: 20px;
+
+        &::before {
+          top: 9px;
+          left: 5px;
+          width: 10px;
+        }
+
+        &::after {
+          top: 5px;
+          left: 9px;
+          height: 10px;
+        }
+      }
+
+    }
+
+    &__text {
+      padding: 4px;
+      font-size: 10px;
+      transform: translate(-50%, -350%);
+    }
+
+  }
+}
+
+
+@media (max-width: 520px) {
+  .tooltip {
+    &__text {
+      font-size: 8px;
+    }
+  }
+}
+
+
+
+
+
+

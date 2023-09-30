@@ -1,0 +1,133 @@
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both
+}
+
+// Анимация для шапки и меню
+@keyframes headerAnimate {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.headerAnimate {
+  animation-name: headerAnimate;
+}
+
+// Анимация для блокоа с преимуществами
+@keyframes advantagesAnimate {
+  from {
+    opacity: 0;
+    transform: translate(0, 200%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+.advantagesAnimate {
+  animation-name: advantagesAnimate;
+}
+
+// Анимация для обертки слайдера, анимированное уменьшение отступов
+@keyframes sliderWrapperAnimate {
+  to {
+    padding: 0;
+  }
+}
+
+.sliderWrapperAnimate {
+  animation-name: sliderWrapperAnimate;
+  animation-delay: 1s;
+}
+
+// Анимация для заголовка и текста которые должны уехать
+@keyframes sliderWrTitle {
+  from {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  to {
+    transform: translate(0, -300%);
+    opacity: 0
+  }
+}
+
+.sliderWrTitleAnimate {
+  animation-name: sliderWrTitle;
+  animation-delay: 0.5s;
+}
+
+// Анимация для сладера
+@keyframes slidesAnimate {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(0, -100px);
+  }
+
+}
+
+.slidesAnimate {
+  animation-name: slidesAnimate;
+  animation-delay: 0.5s;
+}
+
+// Анимация для навигации сладера
+@keyframes sliderNavAnimate {
+  from {
+    opacity: 0;
+    transform: translate(-100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+.sliderNavAnimate {
+  animation-name: sliderNavAnimate;
+  animation-delay: 0.5s;
+}
+
+
+// Анимация переключения слайдов
+@keyframes slideOnAnimate {
+  from {
+    transform: translate(100%, 0);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+.slideOnAnimate {
+  animation-name: slideOnAnimate;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
