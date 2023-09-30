@@ -6,16 +6,8 @@
   "scripts": {
     "build": "gulp build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dmitriywolf/cleaning.git"
-  },
-  "author": "Volchenko D. (volchenkodmitriy@outlook.com)",
+  "author": "Volchenko D",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dmitriywolf/cleaning/issues"
-  },
-  "homepage": "https://github.com/dmitriywolf/cleaning#readme",
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.2",

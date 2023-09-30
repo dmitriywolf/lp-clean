@@ -1,312 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="css/style.min.css">
-  <title>Уборка</title>
-</head>
-<body>
-<header class="header" id="header">
-  <div class="container">
-    <div class="header__inner">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Уборка</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo logo">
+            <img
+              class="logo__img"
+              src="img/logo.png"
+              width="99"
+              height="25"
+              alt="Логотип"
+            />
+          </div>
 
-      <div class="header__logo logo">
-        <img class="logo__img" src="img/logo.png" width="99" height="25" alt="Логотип">
-      </div>
+          <div class="switch">
+            <span class="switch__item active">Дом</span>
+            <span class="switch__item">Офис</span>
+          </div>
 
-      <div class="switch">
-        <span class="switch__item active">Дом</span>
-        <span class="switch__item">Офис</span>
-      </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li><a class="menu__link" href="#">После ремонта</a></li>
+              <li><a class="menu__link" href="#">Генеральная уборка</a></li>
+              <li><a class="menu__link" href="#">Регулярная уборка</a></li>
+              <li><a class="menu__link" href="#">Мойка окон</a></li>
+            </ul>
+          </nav>
 
-      <nav class="menu">
-        <ul class="menu__list">
-          <li><a class="menu__link" href="#">После ремонта</a></li>
-          <li><a class="menu__link" href="#">Генеральная уборка</a></li>
-          <li><a class="menu__link" href="#">Регулярная уборка</a></li>
-          <li><a class="menu__link" href="#">Мойка окон</a></li>
-        </ul>
-      </nav>
+          <div class="header__info">
+            <a class="header__phone" href="tel:380674016977"
+              >+380 67 401 69 77</a
+            >
+            <span>24/7</span>
+          </div>
 
-
-      <div class="header__info">
-        <a class="header__phone" href="tel:380674016977">+380 67 401 69 77</a>
-        <span>24/7</span>
-      </div>
-
-      <button class="header__burger burger">
-        <span class="burger__item"></span>
-      </button>
-    </div>
-
-
-  </div>
-</header>
-
-<main>
-  <section class="intro" id="intro">
-    <div class="container">
-      <div class="intro__inner">
-        <div class="intro__img-wrap">
-          <img src="img/intro.png" alt="Уборка квартир">
+          <button class="header__burger burger">
+            <span class="burger__item"></span>
+          </button>
         </div>
-        <div class="intro__content">
-          <h1 class="intro__title">Уборка квартир в Киеве</h1>
-          <p class="intro__subtitle">Мы уберем у вас дома или в офисе. Наведем чистоту после ремонта и проведем
-            генеральную уборку.</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro" id="intro">
+        <div class="container">
+          <div class="intro__inner">
+            <div class="intro__img-wrap">
+              <img src="img/intro.png" alt="Уборка квартир" />
+            </div>
+            <div class="intro__content">
+              <h1 class="intro__title">Уборка квартир в Киеве</h1>
+              <p class="intro__subtitle">
+                Мы уберем у вас дома или в офисе. Наведем чистоту после ремонта
+                и проведем генеральную уборку.
+              </p>
+            </div>
+            <button class="order-btn">
+              <a class="order-btn__text">Заказать<br />уборку</a>
+            </button>
+          </div>
         </div>
-        <button class="order-btn">
-          <a class="order-btn__text">Заказать<br/>уборку</a>
-        </button>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <section class="advantages">
-    <div class="container">
-      <div class="advantages__inner">
-        <ul class="advantages__list">
+      <section class="advantages">
+        <div class="container">
+          <div class="advantages__inner">
+            <ul class="advantages__list">
+              <li class="advantages__item advantage animated">
+                <p class="advantage__title">Тщательно отобранный персонал</p>
+                <img
+                  class="advantage__logo"
+                  src="img/advantages/item1.png"
+                  alt="Тщательно отобранный персонал"
+                />
+                <p class="advantage__text">
+                  Не нужно тратить время, силы и ресурсы на размещение вакансий,
+                  проведение собеседований, проверку кандидатов на должность
+                  уборщицы. За счет больших объемов мы можем сделать это
+                  эффективнее.
+                </p>
+              </li>
 
-          <li class="advantages__item advantage animated">
-            <p class="advantage__title">Тщательно отобранный персонал</p>
-            <img class="advantage__logo" src="img/advantages/item1.png" alt="Тщательно отобранный персонал">
-            <p class="advantage__text">Не нужно тратить время, силы и ресурсы на размещение вакансий, проведение
-              собеседований, проверку кандидатов на должность уборщицы. За счет больших объемов мы можем сделать это
-              эффективнее.</p>
-          </li>
+              <li class="advantages__item advantage animated">
+                <p class="advantage__title">Качественная эко-химия</p>
+                <img
+                  class="advantage__logo"
+                  src="img/advantages/item2.png"
+                  alt="Качественная эко-химия"
+                />
+                <p class="advantage__text">
+                  Не нужно тратить время, силы и ресурсы на размещение вакансий,
+                  проведение собеседований, проверку кандидатов на должность
+                  уборщицы. За счет больших объемов мы можем сделать это
+                  эффективнее.
+                </p>
+              </li>
 
-          <li class="advantages__item advantage animated">
-            <p class="advantage__title">Качественная эко-химия</p>
-            <img class="advantage__logo" src="img/advantages/item2.png" alt="Качественная эко-химия">
-            <p class="advantage__text">Не нужно тратить время, силы и ресурсы на размещение вакансий, проведение
-              собеседований, проверку кандидатов на должность уборщицы. За счет больших объемов мы можем сделать это
-              эффективнее.</p>
-          </li>
+              <li class="advantages__item advantage animated">
+                <p class="advantage__title">Контролируем качество</p>
+                <img
+                  class="advantage__logo"
+                  src="img/advantages/item3.png"
+                  alt="Контролируем качество"
+                />
+                <p class="advantage__text">
+                  Не нужно тратить время, силы и ресурсы на размещение вакансий,
+                  проведение собеседований, проверку кандидатов на должность
+                  уборщицы. За счет больших объемов мы можем сделать это
+                  эффективнее.
+                </p>
+              </li>
 
-          <li class="advantages__item advantage animated">
-            <p class="advantage__title">Контролируем качество</p>
-            <img class="advantage__logo" src="img/advantages/item3.png" alt="Контролируем качество">
-            <p class="advantage__text">Не нужно тратить время, силы и ресурсы на размещение вакансий, проведение
-              собеседований, проверку кандидатов на должность уборщицы. За счет больших объемов мы можем сделать это
-              эффективнее.</p>
-          </li>
-
-          <li class="advantages__item advantage animated">
-            <p class="advantage__title">Работаем круглосуточно</p>
-            <img class="advantage__logo" src="img/advantages/item4.png" alt="Работаем круглосуточно">
-            <p class="advantage__text">Не нужно тратить время, силы и ресурсы на размещение вакансий, проведение
-              собеседований, проверку кандидатов на должность уборщицы. За счет больших объемов мы можем сделать это
-              эффективнее.</p>
-          </li>
-        </ul>
-
-
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="container">
-
-      <div class="slider__wrapper animated">
-
-        <h2 class="slider__wrapper-title animated">Как мы убираем</h2>
-        <p class="slider__wrapper-text animated">Клинер приезжает в назначенное время со всем необходимым и сразу
-          приступает к делу. Вам остаётся только оценить результат.</p>
-
-        <div class="slider animated">
-          <div class="slider__nav-wrap animated">
-            <h3 class="slider__nav-title">Как мы убираем</h3>
-
-            <ul class="slider__nav">
-              <li><a class="slider__nav-item active">Кухня</a></li>
-              <li><a class="slider__nav-item">Комнаты</a></li>
-              <li><a class="slider__nav-item">Ванная</a></li>
-              <li><a class="slider__nav-item">Прихожая</a></li>
+              <li class="advantages__item advantage animated">
+                <p class="advantage__title">Работаем круглосуточно</p>
+                <img
+                  class="advantage__logo"
+                  src="img/advantages/item4.png"
+                  alt="Работаем круглосуточно"
+                />
+                <p class="advantage__text">
+                  Не нужно тратить время, силы и ресурсы на размещение вакансий,
+                  проведение собеседований, проверку кандидатов на должность
+                  уборщицы. За счет больших объемов мы можем сделать это
+                  эффективнее.
+                </p>
+              </li>
             </ul>
           </div>
-          <div class="slider__slides">
-            <div class="slide slide-start animated">
-              <img class="slide__img" src="img/slider/slide1.jpg" alt="Кухня">
-              <div class="slide__tooltips tooltip--kitchen">
-                <div class="tooltip tooltip--first">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <p class="tooltip__text">Чистим фасад вытяжки</p>
-                </div>
-                <div class="tooltip tooltip--second ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Чистим плиту</span>
-                </div>
-                <div class="tooltip tooltip--third ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Моем пол</span>
-                </div>
-                <div class="tooltip tooltip--fourth ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Выносим мусор</span>
-                </div>
-                <div class="tooltip tooltip--fifth ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Протираем столешницу</span>
-                </div>
-                <div class="tooltip tooltip--sixth ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Моем фасады кухонных гарнитур</span>
-                </div>
-                <div class="tooltip tooltip--seventh ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Моем посуду</span>
-                </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="slider__wrapper animated">
+            <h2 class="slider__wrapper-title animated">Как мы убираем</h2>
+            <p class="slider__wrapper-text animated">
+              Клинер приезжает в назначенное время со всем необходимым и сразу
+              приступает к делу. Вам остаётся только оценить результат.
+            </p>
+
+            <div class="slider animated">
+              <div class="slider__nav-wrap animated">
+                <h3 class="slider__nav-title">Как мы убираем</h3>
+
+                <ul class="slider__nav">
+                  <li><a class="slider__nav-item active">Кухня</a></li>
+                  <li><a class="slider__nav-item">Комнаты</a></li>
+                  <li><a class="slider__nav-item">Ванная</a></li>
+                  <li><a class="slider__nav-item">Прихожая</a></li>
+                </ul>
               </div>
-            </div>
-            <div class="slide animated">
-              <img class="slide__img" src="img/slider/slide2.jpg" alt="Комнаты">
-              <div class="slide__tooltips tooltip--bathroom">
+              <div class="slider__slides">
+                <div class="slide slide-start animated">
+                  <img
+                    class="slide__img"
+                    src="img/slider/slide1.jpg"
+                    alt="Кухня"
+                  />
+                  <div class="slide__tooltips tooltip--kitchen">
+                    <div class="tooltip tooltip--first">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <p class="tooltip__text">Чистим фасад вытяжки</p>
+                    </div>
+                    <div class="tooltip tooltip--second">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Чистим плиту</span>
+                    </div>
+                    <div class="tooltip tooltip--third">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Моем пол</span>
+                    </div>
+                    <div class="tooltip tooltip--fourth">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Выносим мусор</span>
+                    </div>
+                    <div class="tooltip tooltip--fifth">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Протираем столешницу</span>
+                    </div>
+                    <div class="tooltip tooltip--sixth">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text"
+                        >Моем фасады кухонных гарнитур</span
+                      >
+                    </div>
+                    <div class="tooltip tooltip--seventh">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Моем посуду</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide animated">
+                  <img
+                    class="slide__img"
+                    src="img/slider/slide2.jpg"
+                    alt="Комнаты"
+                  />
+                  <div class="slide__tooltips tooltip--bathroom">
+                    <div class="tooltip tooltip--first">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <p class="tooltip__text">Чистим фасад вытяжки</p>
+                    </div>
 
-                <div class="tooltip tooltip--first">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <p class="tooltip__text"> Чистим фасад вытяжки</p>
-                </div>
+                    <div class="tooltip tooltip--second">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Чистим плиту</span>
+                    </div>
 
-                <div class="tooltip tooltip--second ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Чистим плиту</span>
-                </div>
+                    <div class="tooltip tooltip--third">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text"> Моем пол</span>
+                    </div>
 
-                <div class="tooltip tooltip--third ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
+                    <div class="tooltip tooltip--fourth">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text"> Выносим мусор</span>
+                    </div>
+                    <div class="tooltip tooltip--fifth">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Моем посуду</span>
+                    </div>
                   </div>
-                  <span class="tooltip__text"> Моем пол</span>
                 </div>
+                <div class="slide animated">
+                  <img
+                    class="slide__img"
+                    src="img/slider/slide3.jpg"
+                    alt="Ванная"
+                  />
+                  <div class="slide__tooltips tooltip--kitchen">
+                    <div class="tooltip tooltip--first">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <p class="tooltip__text">Чистим фасад вытяжки</p>
+                    </div>
+                    <div class="tooltip tooltip--second">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Чистим плиту</span>
+                    </div>
+                    <div class="tooltip tooltip--third">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Моем пол</span>
+                    </div>
+                    <div class="tooltip tooltip--fourth">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Выносим мусор</span>
+                    </div>
+                    <div class="tooltip tooltip--fifth">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Протираем столешницу</span>
+                    </div>
+                    <div class="tooltip tooltip--sixth">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text"
+                        >Моем фасады кухонных гарнитур</span
+                      >
+                    </div>
+                    <div class="tooltip tooltip--seventh">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Моем посуду</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide animated">
+                  <img
+                    class="slide__img"
+                    src="img/slider/slide4.jpg"
+                    alt="Прихожая"
+                  />
+                  <div class="slide__tooltips tooltip--bathroom">
+                    <div class="tooltip tooltip--first">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <p class="tooltip__text">Чистим фасад вытяжки</p>
+                    </div>
 
-                <div class="tooltip tooltip--fourth ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text"> Выносим мусор</span>
-                </div>
-                <div class="tooltip tooltip--fifth ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Моем посуду</span>
-                </div>
-              </div>
-            </div>
-            <div class="slide animated">
-              <img class="slide__img" src="img/slider/slide3.jpg" alt="Ванная">
-              <div class="slide__tooltips tooltip--kitchen">
-                <div class="tooltip tooltip--first">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <p class="tooltip__text">Чистим фасад вытяжки</p>
-                </div>
-                <div class="tooltip tooltip--second ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Чистим плиту</span>
-                </div>
-                <div class="tooltip tooltip--third ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Моем пол</span>
-                </div>
-                <div class="tooltip tooltip--fourth ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Выносим мусор</span>
-                </div>
-                <div class="tooltip tooltip--fifth ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Протираем столешницу</span>
-                </div>
-                <div class="tooltip tooltip--sixth ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Моем фасады кухонных гарнитур</span>
-                </div>
-                <div class="tooltip tooltip--seventh ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Моем посуду</span>
-                </div>
-              </div>
-            </div>
-            <div class="slide animated">
-              <img class="slide__img" src="img/slider/slide4.jpg" alt="Прихожая">
-              <div class="slide__tooltips tooltip--bathroom">
+                    <div class="tooltip tooltip--second">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Чистим плиту</span>
+                    </div>
 
-                <div class="tooltip tooltip--first">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <p class="tooltip__text"> Чистим фасад вытяжки</p>
-                </div>
+                    <div class="tooltip tooltip--third">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text"> Моем пол</span>
+                    </div>
 
-                <div class="tooltip tooltip--second ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
+                    <div class="tooltip tooltip--fourth">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text"> Выносим мусор</span>
+                    </div>
+                    <div class="tooltip tooltip--fifth">
+                      <div class="tooltip__icon-wrap">
+                        <span class="tooltip__icon"></span>
+                      </div>
+                      <span class="tooltip__text">Моем посуду</span>
+                    </div>
                   </div>
-                  <span class="tooltip__text">Чистим плиту</span>
-                </div>
-
-                <div class="tooltip tooltip--third ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text"> Моем пол</span>
-                </div>
-
-                <div class="tooltip tooltip--fourth ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text"> Выносим мусор</span>
-                </div>
-                <div class="tooltip tooltip--fifth ">
-                  <div class="tooltip__icon-wrap">
-                    <span class="tooltip__icon"></span>
-                  </div>
-                  <span class="tooltip__text">Моем посуду</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
-      </div>
-    </div>
-
-  </section>
-</main>
-<script src="js/index.min.js"></script>
-</body>
+      </section>
+    </main>
+    <script src="js/index.min.js"></script>
+  </body>
 </html>
